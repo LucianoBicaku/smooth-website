@@ -1,0 +1,96 @@
+.tickets{
+    width: 100%;
+    text-align: center;
+    background-image: url(./ticketsbg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: context-menu;
+}
+.tickets h1{
+    padding-top: 5%;
+    color: rgba(255, 255, 255, 0.931);
+    font-size: 3rem;
+    box-shadow: rgba(175, 173, 173, 0.931);
+}
+.pricing-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.col{
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+.table{
+    padding: 40px 20px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+    background-color:rgba(225,225,225,0.7);
+}
+.table h2{
+    text-transform: uppercase;
+    color:rgb(0,0,0);
+}
+.table ul{
+    margin: 0;
+    padding: 0;
+}
+.table ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+.price{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.price span{
+    display: block;
+    font-size: 14px;
+}
+.table a{
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    display: block;
+    padding: 10px 0;
+    border-radius: 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s linear;
+}
+.table a:hover{
+    background: #2c3e50;
+    color: #fff;
+
+}
+.vip{
+    background: #2c3e50;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 40px;
+    position: absolute;
+    top:20px;
+    right: -34px;
+}
+@media screen and (max-width: 980px){
+    .col{
+        flex:50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .col{
+        flex:100%;
+    }
+}
